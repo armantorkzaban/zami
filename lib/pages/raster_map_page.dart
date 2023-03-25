@@ -135,8 +135,7 @@ class RasterMapPageState extends State<RasterMapPage> {
                       y %= tilesInZoom;
 
                       return CachedNetworkImage(
-                        imageUrl:
-                            _darkMode ? googleDark(z, x, y) : google(z, x, y),
+                        imageUrl: _darkMode ? mapbox(z, x, y) : mapbox(z, x, y),
                         fit: BoxFit.cover,
                       );
                     },

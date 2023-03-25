@@ -1,4 +1,5 @@
-const yourMapBoxAccessToken = '';
+const yourMapBoxAccessToken =
+    'pk.eyJ1IjoiYXJtYW50b3JremFiYW4iLCJhIjoiY2wyZWQyeW82MDJ6czNxcDR5MXQybnlsNCJ9.qBU8Zwy_mvpJ8D7bMBA-nA';
 
 /// Legal notice: This url is only used for demo and educational purposes. You need a license key for production use.
 String google(int z, int x, int y) {
