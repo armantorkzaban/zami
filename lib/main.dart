@@ -56,26 +56,6 @@ class _HomePageState extends State<HomePage> {
             onTap: () => _push(const RasterMapPage()),
           ),
           ListTile(
-            title: const Text('Vector Map'),
-            subtitle: const Text('OSM light-themed vector maps.'),
-            trailing: const Icon(Icons.chevron_right_sharp),
-            onTap: () => _push(const VectorMapPage()),
-            enabled: false,
-          ),
-          ListTile(
-            title: const Text('Markers'),
-            subtitle: const Text(
-                'Drop multiple fixed and centered markers on the map.'),
-            trailing: const Icon(Icons.chevron_right_sharp),
-            onTap: () => _push(const MarkersPage()),
-          ),
-          ListTile(
-            title: const Text('Interactive'),
-            subtitle: const Text('Say where on the earth user has clicked.'),
-            trailing: const Icon(Icons.chevron_right_sharp),
-            onTap: () => _push(const InteractiveMapPage()),
-          ),
-          ListTile(
             title: const Text('Shapes'),
             subtitle: const Text('Display Polylines on the map.'),
             trailing: const Icon(Icons.chevron_right_sharp),
@@ -87,26 +67,26 @@ class _HomePageState extends State<HomePage> {
             trailing: const Icon(Icons.chevron_right_sharp),
             onTap: () => _push(const CustomTilePage()),
           ),
-          ListTile(
-            title: const Text('Metro Lines (Work in Progress)'),
-            subtitle: const Text('Draw polyline overlays (Tehran Metro).'),
-            trailing: const Icon(Icons.chevron_right_sharp),
-            onTap: () => _push(const MetroLinesPage()),
-          ),
-          ListTile(
-            title: const Text('Custom Projection'),
-            subtitle:
-                const Text('How we convert LatLng to XY. Useful for games.'),
-            trailing: const Icon(Icons.chevron_right_sharp),
-            onTap: _showNotImplemented,
-            enabled: false,
-          ),
-          ListTile(
-            title: const Text('Twilight'),
-            subtitle: const Text('Day and night map, sun and moon position.'),
-            trailing: const Icon(Icons.chevron_right_sharp),
-            onTap: () => _push(const TwilightPage()),
-          ),
+          // ListTile(
+          //   title: const Text('Metro Lines (Work in Progress)'),
+          //   subtitle: const Text('Draw polyline overlays (Tehran Metro).'),
+          //   trailing: const Icon(Icons.chevron_right_sharp),
+          //   onTap: () => _push(const MetroLinesPage()),
+          // ),
+          // ListTile(
+          //   title: const Text('Custom Projection'),
+          //   subtitle:
+          //       const Text('How we convert LatLng to XY. Useful for games.'),
+          //   trailing: const Icon(Icons.chevron_right_sharp),
+          //   onTap: _showNotImplemented,
+          //   enabled: false,
+          // ),
+          // ListTile(
+          //   title: const Text('Twilight'),
+          //   subtitle: const Text('Day and night map, sun and moon position.'),
+          //   trailing: const Icon(Icons.chevron_right_sharp),
+          //   onTap: () => _push(const TwilightPage()),
+          // ),
         ],
       ),
     );
